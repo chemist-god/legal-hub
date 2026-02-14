@@ -125,7 +125,6 @@ Please take immediate action to renew this licence to avoid any legal consequenc
         channel,
         subject: `URGENT: Licence Expiry - ${licence.licenceType}`,
         message,
-        deadline: {} as Deadline, // Placeholder
         licence
       };
 
@@ -162,7 +161,6 @@ Please take action to maintain your registration status.
         channel,
         subject: `Registration Renewal Required - ${registration.registrationType}`,
         message,
-        deadline: {} as Deadline, // Placeholder
         registration
       };
 

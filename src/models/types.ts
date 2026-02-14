@@ -107,7 +107,7 @@ export interface NotificationPayload {
   channel: NotificationChannel;
   subject: string;
   message: string;
-  deadline: Deadline;
+  deadline?: Deadline;
   matter?: Matter;
   licence?: Licence;
   registration?: Registration;

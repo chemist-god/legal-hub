@@ -234,10 +234,10 @@ export class LicenceRegistrationService {
   }
 
   private generateLicenceId(): string {
-    return `LIC-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    return `LIC-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
   }
 
   private generateRegistrationId(): string {
-    return `REG-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    return `REG-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
   }
 }

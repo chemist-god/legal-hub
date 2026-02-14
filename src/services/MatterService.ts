@@ -112,6 +112,6 @@ export class MatterService {
   }
 
   private generateId(): string {
-    return `MTR-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    return `MTR-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
   }
 }

@@ -180,6 +180,6 @@ export class DeadlineService {
   }
 
   private generateId(): string {
-    return `DL-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    return `DL-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
   }
 }
